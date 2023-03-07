@@ -1,0 +1,13 @@
+let a = "33abc"
+
+let b = Number(a)
+
+console.log(typeof b)
+console.log(b)
+
+if (b!==NaN){
+    console.log("b is not a NaN")
+}
+else{
+    console.log("b is a NaN")
+}
